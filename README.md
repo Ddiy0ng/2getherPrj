@@ -1,30 +1,18 @@
-# 📰 2GETHER
-#####  내일배움캠프 온보딩 프로젝트 : 팀원 소개 및 방명록 웹애플리케이션
+# 2GETHER
+#####  팀원 소개 및 방명록 웹애플리케이션 제작 팀 프로젝트
+
+## Overview
+##### 개발 기간: 25.04.07 ~ 25.04.10
 ![image](https://github.com/user-attachments/assets/96c12cbc-3aab-4e35-9157-3a1fee947735)
 
+## 서비스 화면
 
- 
-## ✨ Overview
-##### 🏆 개발 기간: 25.04.07 ~ 25.04.10
-![image](https://github.com/user-attachments/assets/4e883b99-fb7d-4b72-9220-f8c60ac0da56)
-- On-boarding : 배에 올라타다
-- 온보딩은 기업이나 조직에 잘 정착함을 의미합니다.
-- 5개월 간 코딩함선의 순항을 위해 안정적으로 적응하도록 노력하는 것이 중요합니다.
-- 이에 따라 저희 2조 2GETHER 팀은 기술적인 부분보다는 각자 코딩에 자신감을 얻기 위한 작업을 진행하였습니다.
+### [시연 영상](https://drive.google.com/file/d/1Kif0_1ZqQEgGe2L2wgcdm5VFThFMgmbL/view)
 
-
-## ✨ 2GETHER 소통 플랫폼 
-##### 🏆 [노션][(https://www.notion.so/ae9aab2290414d5ebc4510c922177e54)](https://www.notion.so/teamsparta/2-_2gether-1ce2dc3ef51480fa8883d455506b4f84)
-
-
-## 👀 서비스 화면
-
-### 📹 [시연 영상](https://drive.google.com/file/d/1Kif0_1ZqQEgGe2L2wgcdm5VFThFMgmbL/view)
-
-### 📄 [PPT](https://www.canva.com/design/DAGkOLkAljU/dVlau21AzVbulnBwD2e6Ng/view?utm_content=DAGkOLkAljU&utm_campaign=share_your_design&utm_medium=link2&utm_source=shareyourdesignpanel)
+### [PPT](https://www.canva.com/design/DAGkOLkAljU/dVlau21AzVbulnBwD2e6Ng/view?utm_content=DAGkOLkAljU&utm_campaign=share_your_design&utm_medium=link2&utm_source=shareyourdesignpanel)
 
   
-## ✨  기능 
+## 기능 
 
 - `공공데이터 API를 활용한 날씨, 기온 표시`
 	- 공공데이터 API를 활용하여 현재 자신의 위치 정보에 따른 날씨와 기온을 헤더부분에 표시해줍니다.
@@ -53,46 +41,49 @@
   - 페이지네이션 기능을 도입하여 방명록 한 페이지에 최대 5개가 보이게 하고, 페이지가 넘어가게 만들었습니다.
  
 
-## 🖥️ 개발 환경
-**Management Tool**
+## 개발 환경
+<Management Tool>
 - 협업 : Git
 - 커뮤니케이션 : Notion, Zep
 - 디자인 : draw.io
 
-**🔨 IDE**
+<IDE>
 - Visual Studio Code `1.99.1`
 
-**🦊 Frontend**
+<Frontend>
 -  HTML5, CSS3, JAVASCRIPT
 
-**🗝️ API**
+<API>
 - OpenAI API
 
-**🗂️ DB**
+<DB>
 - firebase `9.22.0`
 
-**🌐 Library**
+<Library>
 - SweetAlert2 `11.17.2`
 - Font Awesome
 - Swiper `v11`
 - Bootstrap `5.3.5`
 
+<소통 플랫폼> 
+- [노션][(https://www.notion.so/ae9aab2290414d5ebc4510c922177e54)](https://www.notion.so/teamsparta/2-_2gether-1ce2dc3ef51480fa8883d455506b4f84)
 
-## ✨ 트러블슈팅
+
+
+## 트러블슈팅
 - 문제 상황 : 기존에는 name 값을 파라미터 값으로 조회하여 상세페이지에서 name에 맞는 내용을 조회하여 보여주었음 -> name에 중복값이 생기면 버그 발생
 ![image](https://github.com/user-attachments/assets/ac0989c9-d624-43da-a868-a5fe861758b5)
 - 해결 방안 : name을 파라미터값으로 받지 말고, 문서 고유 ID를 받아와서 파라미터 값으로 받아와 중복 해결
 ![image](https://github.com/user-attachments/assets/db969ff5-2a3f-40ad-a191-60539becdfd2)
 
 
-## 💫 와이어프레임
+## 와이어프레임
 ![제목 없는 다이어그램 drawio](https://github.com/user-attachments/assets/7e73caa2-ebad-444a-8f3c-1c2871bc2760)
 (https://drive.google.com/file/d/1URu6bP532CQfttGwlm5Mdsqcy1ERQcex/view)
 
-## 💞 팀원 소개
-##### ❤️‍🔥 2GETHER 프로젝트를 만든 팀원들을 소개합니다!
+## 팀원 소개
 
-| **김도균** | **문정호** | **박소희** | **우지운** | **이동근** | **이효선** |
+| 김도균 | 문정호 | 박소희 | 우지운 | 이동근 | 이효선(팀장) |
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
-| 팀원 추가 기능 구현 | 상세페이지 - 프로필 | 방명록 | 메인페이지<br/>에이스 | 팀원 조회 기능 구현 | 상세페이지 - 댓글창<br/>팀장 |
+| 팀원 추가 | 상세페이지 - 프로필 | 방명록 | 메인페이지 | 팀원 조회 | 상세페이지 - 댓글창 |
 
